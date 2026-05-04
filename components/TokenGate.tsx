@@ -35,7 +35,7 @@ export default function TokenGate({ children }: { children: React.ReactNode }) {
       <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 w-full max-w-md">
         <h1 className="text-2xl font-bold text-gray-900 mb-1">Jobescape+</h1>
         <p className="text-gray-500 text-sm mb-6">
-          Paste your Jobescape JWT token to continue. You can find it in the browser devtools → Application → LocalStorage on the main app.
+          Paste your Jobescape JWT token to continue. You can get one via the users app Swagger token endpoint.
         </p>
         <form onSubmit={submit} className="flex flex-col gap-3">
           <textarea
